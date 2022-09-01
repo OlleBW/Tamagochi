@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EXbI8dkfdZce+et0DInmszJ7O4qcqJyoE/nGAZ5KGVZtGw+8kZsIMwivBF7EIL+9j4pL2Rb4iH6EDOwCxVV04g==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\olle.brinkwennberg\\Desktop\\Prog2\\Tamagochi\\Tamagochi\\Tamagochi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\olle.brinkwennberg\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
