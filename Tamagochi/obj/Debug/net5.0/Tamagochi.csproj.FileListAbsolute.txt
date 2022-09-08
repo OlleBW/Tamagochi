@@ -1,0 +1,16 @@
+C:\Users\olle.brinkwennberg\Desktop\Prog2\Tamagochi\Tamagochi\bin\Debug\net5.0\Tamagochi.exe
+C:\Users\olle.brinkwennberg\Desktop\Prog2\Tamagochi\Tamagochi\bin\Debug\net5.0\Tamagochi.deps.json
+C:\Users\olle.brinkwennberg\Desktop\Prog2\Tamagochi\Tamagochi\bin\Debug\net5.0\Tamagochi.runtimeconfig.json
+C:\Users\olle.brinkwennberg\Desktop\Prog2\Tamagochi\Tamagochi\bin\Debug\net5.0\Tamagochi.runtimeconfig.dev.json
+C:\Users\olle.brinkwennberg\Desktop\Prog2\Tamagochi\Tamagochi\bin\Debug\net5.0\Tamagochi.dll
+C:\Users\olle.brinkwennberg\Desktop\Prog2\Tamagochi\Tamagochi\bin\Debug\net5.0\Tamagochi.pdb
+C:\Users\olle.brinkwennberg\Desktop\Prog2\Tamagochi\Tamagochi\obj\Debug\net5.0\Tamagochi.csproj.AssemblyReference.cache
+C:\Users\olle.brinkwennberg\Desktop\Prog2\Tamagochi\Tamagochi\obj\Debug\net5.0\Tamagochi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olle.brinkwennberg\Desktop\Prog2\Tamagochi\Tamagochi\obj\Debug\net5.0\Tamagochi.AssemblyInfoInputs.cache
+C:\Users\olle.brinkwennberg\Desktop\Prog2\Tamagochi\Tamagochi\obj\Debug\net5.0\Tamagochi.AssemblyInfo.cs
+C:\Users\olle.brinkwennberg\Desktop\Prog2\Tamagochi\Tamagochi\obj\Debug\net5.0\Tamagochi.csproj.CoreCompileInputs.cache
+C:\Users\olle.brinkwennberg\Desktop\Prog2\Tamagochi\Tamagochi\obj\Debug\net5.0\Tamagochi.dll
+C:\Users\olle.brinkwennberg\Desktop\Prog2\Tamagochi\Tamagochi\obj\Debug\net5.0\refint\Tamagochi.dll
+C:\Users\olle.brinkwennberg\Desktop\Prog2\Tamagochi\Tamagochi\obj\Debug\net5.0\Tamagochi.pdb
+C:\Users\olle.brinkwennberg\Desktop\Prog2\Tamagochi\Tamagochi\obj\Debug\net5.0\Tamagochi.genruntimeconfig.cache
+C:\Users\olle.brinkwennberg\Desktop\Prog2\Tamagochi\Tamagochi\obj\Debug\net5.0\ref\Tamagochi.dll
