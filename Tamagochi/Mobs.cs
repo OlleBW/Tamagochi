@@ -22,7 +22,7 @@ public class Tamagotchi
     {
         hunger++;
         boredom++;
-        if (hunger > 5 || boredom > 5)
+        if (hunger > 10 || boredom > 10)
         {
             Alive = false;
         }
@@ -44,10 +44,28 @@ public class Tamagotchi
     }
     public void Play()
     {
-
+        if (words.Count == 0)
+        {
+            Console.WriteLine($"Sorry but {name} does not know any words yet.");
+            Console.WriteLine("Press Enter to continue.");
+            Console.ReadLine();
+        }
+        if (words.Count > 0)
+        {
+            int rndmWord = generator.Next(words.Count);
+            Console.WriteLine($"{name} says: {words[rndmWord]}");
+        }
     }
-    public void Teach()
+    public void Teach(string word)
     {
-
+        Console.WriteLine($"{name} learnt the word: {word}");
+        words.Add(word);
+        boredom = -2;
+        if (boredom <= 0)
+        {
+            boredom = 0;
+        }
+        Console.WriteLine($"Press Enter to continue!");
+        Console.ReadLine();
     }
 }

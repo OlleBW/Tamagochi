@@ -18,39 +18,41 @@ while (Tama.getAlive() == true)
     string Action = Console.ReadLine();
     if (Action == "1")
     {
-        Console.Clear();
-        Console.WriteLine("Test");
-
         Tama.Tick();
+        Console.Clear();
+        Console.WriteLine($"Write a word for {Tama.name} to learn!");
+        string word = Console.ReadLine();
+        Tama.Teach(word);
     }
 
     if (Action == "2")
     {
-        Console.Clear();
-        Console.WriteLine("Test 2");
-
         Tama.Tick();
+        Console.Clear();
+        Tama.Play();
     }
 
     if (Action == "3")
     {
+        Tama.Tick();
         Console.Clear();
 
         Tama.Feed();
-
-        Tama.Tick();
 
         Console.Clear();
     }
 
     if (Action == "4")
     {
-        Console.Clear();
-
         Tama.Tick();
+        Console.Clear();
     }
     else
     {
         Console.Clear();
     }
 }
+Console.Clear();
+Console.WriteLine("You Lost!");
+Console.WriteLine("Press Enter to quit");
+Console.ReadLine();
