@@ -53,7 +53,7 @@ public class Tamagotchi
         if (words.Count > 0)
         {
             int rndmWord = generator.Next(words.Count);
-            Console.WriteLine($"{name} says: {words[rndmWord]}");
+            Console.WriteLine($"{name} says: {rndmWord}");
         }
     }
     public void Teach(string word)
