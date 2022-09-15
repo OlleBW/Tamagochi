@@ -52,6 +52,7 @@ while (Tama.getAlive() == true)
         Console.Clear();
     }
 }
+
 Console.Clear();
 Console.WriteLine("You Lost!");
 Console.WriteLine("Press Enter to quit");

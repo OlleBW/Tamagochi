@@ -7,7 +7,7 @@ public class Tamagotchi
     private int boredom;
     private int hunger;
     private List<string> words = new List<string>();
-    private Random generator;
+    private Random generator = new();
     public string name;
 
     public Tamagotchi()
@@ -22,7 +22,7 @@ public class Tamagotchi
     {
         hunger++;
         boredom++;
-        if (hunger > 10 || boredom > 10)
+        if (hunger > 5 || boredom > 5)
         {
             Alive = false;
         }
@@ -53,7 +53,9 @@ public class Tamagotchi
         if (words.Count > 0)
         {
             int rndmWord = generator.Next(words.Count);
-            Console.WriteLine($"{name} says: {rndmWord}");
+            Console.WriteLine($"{name} says: {words[rndmWord]}");
+            Console.WriteLine("Press Enter to continue");
+            Console.ReadLine();
         }
     }
     public void Teach(string word)
